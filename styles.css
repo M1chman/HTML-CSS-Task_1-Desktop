@@ -1,0 +1,220 @@
+/*-----Logo and Navigation----*/
+.dws-menu *{
+	margin: 0;
+	padding: 0;
+}
+header {
+
+/*-----Navigation----*/
+}
+.dws-menu ul,
+.dws-menu ol{
+	list-style: none;
+}
+.dws-menu > ul{
+	display: flex;
+	justify-content: center;
+	padding-right: 800px;
+}
+.dws-menu > ul li a{
+	display: block;
+	background: white;
+	padding: 9px 5px 9px 5px;
+	font-size: 10px;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.3s ease;
+	width: 55px;
+	text-align: center;
+	z-index: 2;
+
+}
+.dws-menu li a:hover{
+	background: #faf9ff;
+	color: black;
+	box-shadow: 1px 5px 10px -5px black;
+	transition: all 0.5s ease;
+	z-index: 2;
+}
+
+/*Sub_Menu*/
+.dws-menu li ul{
+	position: absolute;
+	min-width: 150px;
+	display: none;
+
+}
+.dws-menu li > ul li{
+	border: 1px solid #c7c8ca;
+	padding-left: 10px;
+	text-transform: none;
+	background: white;
+
+}
+.dws-menu li:hover > ul{
+	display: block;
+
+}
+
+
+
+.head {
+	background: white;
+	width: 100%;
+	height: 30px;
+	position: relative;
+	display: flex;
+		box-shadow: 1px 3px 5px -5px black;
+	justify-content: space-between;
+	z-index: 2;
+	/*box-shadow: 1px, 5px, 10px, -5px black;*/
+}
+
+.logo {
+	margin: 5px 30%;
+}
+
+/*-------Grey block with main photo and discription-------*/
+.main {
+	background: #faf9ff;
+	width: 100%;
+	height: 600px;
+						/*position: relative;
+						margin-top: 200px;*/
+	top: -200px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	z-index: 1;
+
+
+}
+
+.main_text {
+	font-family: Tahoma, serif;
+	position: absolute;
+	top: 30px;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+.main_text p {
+	font-size: 10px;
+}
+
+.main_photo {
+	position: absolute;
+	text-align: center;
+	top: 440px;
+	left: 0;
+	right: 0;
+
+}
+
+h1 {
+	margin-top: 200px;
+	padding-top: : 50px;
+}
+
+/*------Main discriptions-------/*/
+.title {
+
+	font-family: Tahoma, serif;
+	position: absolute;
+	top: 700px;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+.title p {
+	font-size: 10px;
+}
+h2 {
+	margin-bottom: -3px;
+}
+
+/*------FlexBox-------/*/
+.flex__container {
+
+    display: flex;
+    flex-direction: column;
+	margin: 0px, 0px, 20px, 0px;
+	padding-top: 150px;
+    /* border: 20px solid #ece89d; */
+}
+
+
+.flex__box__1 {
+    margin: 0 20% 0 20%;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap; 
+    justify-content: center;
+    height: 100%;
+    /* border: 20px solid #5e5373; */
+}
+
+.flex__element__1 {
+    /* border: 10px solid #c1a7e4; */
+    width: 55px;
+}
+.flex__element__2 {
+    /* border: 10px solid #c1a7e4; */
+    width: 410px;
+}
+.flex__element__2 p {
+    font-size: 10px;
+}
+.flex__element__3 {
+    /* border: 10px solid #c1a7e4; */
+    width: 55px;
+}
+.flex__element__4 {
+    /* border: 10px solid #c1a7e4; */
+    width: 410px;
+}
+.flex__element__4 p {
+    font-size: 10px;
+}
+h5 {
+    margin-bottom: -5px;
+}
+
+
+.flex__box__2 {
+    margin: 0 20% 0 20%;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap; 
+    justify-content: center;
+    height: 100%;
+    /* border: 20px solid #5e5373; */ 
+}
+
+.flex__element__5 {
+     /*border: 10px solid #c1a7e4;*/
+    width: 55px;
+}
+.flex__element__6 {
+    /* border: 10px solid #c1a7e4; */
+    width: 410px;
+}
+.flex__element__6 p {
+    font-size: 10px;
+}
+.flex__element__7 {
+    /* border: 10px solid #c1a7e4; */
+    width: 55px;
+}
+.flex__element__8 {
+    /* border: 10px solid #c1a7e4; */
+    width: 410px;
+}
+.flex__element__8 p {
+    font-size: 10px;
+}
+h5 {
+    margin-bottom: -5px;
+}
